@@ -1,0 +1,25 @@
+.expense-item {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  width: 60%;
+  margin: 15px auto;
+  flex-wrap: wrap;
+
+  .expense-item__title {
+    color: darkslateblue;
+    font-size: 20px;
+  }
+  .expense-item__price {
+    background-color: rgb(47, 153, 153);
+    color: white;
+    padding: 5px 30px;
+
+    p {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
