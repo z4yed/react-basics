@@ -1,0 +1,35 @@
+.new-expense__info {
+  display: flex;
+  .input-wrapper {
+    width: 50%;
+
+    * {
+      display: block;
+      height: 25px;
+      border-radius: 5px;
+      border: none;
+    }
+
+    label {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
+
+.new-expense__action {
+  button {
+    display: block;
+    height: 45px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: rgb(27, 143, 85);
+    padding: 4px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+  }
+}

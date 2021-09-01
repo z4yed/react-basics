@@ -1,5 +1,5 @@
 import "./ExpenseDate.scss";
-import Card from "./Card";
+import Card from "../UI/Card";
 
 const ExpenseDate = (props) => {
   let month = props.month;

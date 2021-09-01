@@ -1,13 +1,15 @@
+import React from "react";
+
 import "./ExpenseItem.scss";
 import ExpenseDate from "./ExpenseDate";
-import Card from "./Card";
+import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
   let month = props.date.toLocaleString("en-US", { month: "long" });
   let day = props.date.toLocaleString("en-US", { day: "2-digit" });
   let year = props.date.getFullYear();
-  let title = props.title;
   let price = props.price;
+  let title = props.title;
 
   //   console.log(month, day, year);
 
